@@ -1,0 +1,4 @@
+sekunden = int(input("Geben Sie bitte die Sekunden ein: "));
+minuten = sekunden //60;
+sekunden_rest = sekunden % 60;
+print(f"{sekunden} Sekunden sind {minuten} und {sekunden_rest} Sekunden.")
